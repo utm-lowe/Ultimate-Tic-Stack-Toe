@@ -1,7 +1,7 @@
 # Ultimate Tic-Stack-Toe
 Welcome to this year's Hack-a-Thon! The hint was that you would be
 creating an adversarial agent that can work in a simulated
-enviornment. This year's environment is a simple one with a twist. Our
+environment. This year's environment is a simple one with a twist. Our
 environment will consist of a game board, and your program will play
 in a round robin tournament against other programs.
 
@@ -51,7 +51,7 @@ X's and O's in a 3D grid.
 
 These grids are stacked on top of each other, and the game is won when
 a player gets 3 in a row along any dimension. For instance, we can
-have a verticle win:
+have a vertical win:
 
 ```
  X |   |  
@@ -159,7 +159,7 @@ upper left board (board (0,0)).  Suppose that player plays in square
 
 When a player wins a board, the board is marked with either an X or an
 O. After a win, or after a scratch on a board, the next player can
-once again play anywehre on the board. Consider the following sample
+once again play anywhere on the board. Consider the following sample
 final board:
 
 ```
@@ -384,7 +384,7 @@ agent which can play Ultimate Tic-Stack-Toe.
 Your agent will simply be a program which will be placed in the agents
 directory. You can write this program in any language that you can get
 working on Codespaces (which is pretty much every language that has
-ever existed as this is simply a debian-based linux environment). Your
+ever existed as this is simply a Debian-based Linus environment). Your
 agent will communicate with the game environment via standard input
 and standard output. The game will send you a JSON encoded object
 consisting of the following fields:
@@ -499,7 +499,7 @@ The winner of given layer would be:
 state['boards'][layer]['winner']
 ```
 
-The winner of one of the layer's subboards would be at
+The winner of one of the layer's sub-boards would be at
 ```
 state['boards'][layer]['grid'][by][bx]['winner']
 ```
@@ -521,13 +521,13 @@ because parsing this would be a challenge unto itself.
 Your agent needs to be able to run in GitHub codespaces. To submit
 your agent, I would like you to commit and push your source code and
 your codespaces compiled binary in the agents directory. Do your work
-in this repository, submitting all source and that binary by commiting
+in this repository, submitting all source and that binary by committing
 and pushing your changes. You are welcome to work on your own
 computers, just be sure that your program runs on codespaces before
 the final submission.
 
 In addition to the source code, please fill out the "AGENT-FORM.md"
-file with the information in trequests. Be sure to include any special
+file with the information in requests. Be sure to include any special
 installation or compilation instructions.
 
 
