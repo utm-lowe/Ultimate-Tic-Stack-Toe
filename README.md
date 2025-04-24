@@ -520,11 +520,11 @@ because parsing this would be a challenge unto itself.
 ## Submitting Your Agent
 Your agent needs to be able to run in GitHub codespaces. To submit
 your agent, I would like you to commit and push your source code and
-your codespaces compiled binary in the agents directory. Do your work
-in this repository, submitting all source and that binary by committing
-and pushing your changes. You are welcome to work on your own
-computers, just be sure that your program runs on codespaces before
-the final submission.
+your codespaces compatible executable (either script or binary) in the
+agents directory. Do your work in this repository, submitting all
+source and that binary by committing and pushing your changes. You are
+welcome to work on your own computers, just be sure that your program
+runs on codespaces before the final submission.
 
 In addition to the source code, please fill out the "AGENT-FORM.md"
 file with the information in requests. Be sure to include any special
