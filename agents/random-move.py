@@ -8,7 +8,6 @@ try:
     while True:
         #get the board from stdin
         board=json.loads(input())
-        sys.stderr.write(json.dumps(board)+'\n')
 
         # select a move at random from among the valid moves
         move=json.dumps(choice(board['moves']))
