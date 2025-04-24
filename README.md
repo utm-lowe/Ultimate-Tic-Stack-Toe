@@ -517,6 +517,11 @@ the JSON implementation of the language of your choice. I would
 strongly recommend that you grab a pre-made JSON library for this
 because parsing this would be a challenge unto itself.
 
+Finally, you can use stderr to display debugging information. This 
+will not be considered during debugging. (The `random-move.py` agent
+does this to print the JSON string it is sending for the moves.)
+
+
 ## Submitting Your Agent
 Your agent needs to be able to run in GitHub codespaces. To submit
 your agent, I would like you to commit and push your source code and
@@ -538,6 +543,12 @@ assigned. The program that wins the most games will be declared the
 winner! If there is a tie, we will play a best two out of three runoff
 between the tied programs.
 
+If your program fails to produce valid moves, either through deadlocks
+or by repeatedly sending invalid moves, your program will be declared
+the loser of the match. Please make sure your program can respond to 
+the board within 20 seconds of receiving the board. 
+
+## Conclusion
 And with that, I will leave you to it. Go forth and write your
 competitive agent. 
 
